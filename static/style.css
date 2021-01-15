@@ -1,0 +1,83 @@
+body{
+  background-color: lightyellow;
+}
+
+a{
+  color: dimgrey;
+}
+
+a:hover{
+  color: dimgrey;
+  text-decoration: underline;
+}
+
+
+ .hello{
+   color: red;
+ }
+
+#top{
+  height: 10vh;
+  background-color: whitesmoke;
+}
+
+ #home{
+   height: 90vh;
+   background-color: snow;
+ }
+
+ .main-text{
+   font-size: 35pt;
+   font-weight: bold;
+   padding-top: 15vh;
+   color: #615e5e;
+ }
+
+ .subtext{
+   font-size: 14pt;
+   padding-top: 10vh;
+   font-weight: normal;
+ }
+
+ .sub-button{
+   margin-top: 5vh;
+   background-color: orange;
+   width: 10vw;
+ }
+
+ .sub-button:hover{
+   background-color: white;
+   color:orange;
+ }
+
+ .sub-a{
+
+ }
+
+ .sub-a:hover{
+   color: orange;
+ }
+
+ .main-image{
+   margin-left: 8vw;
+   height: 80%;
+   width: 80%;
+ }
+
+.predict{
+  width: 13.7vw;
+  margin-top: 4vh;
+}
+
+.data{
+  padding-bottom: 7vh;
+}
+
+.price{
+  padding-top: 25vh;
+}
+
+#price{
+  background-color: snow;
+  height: 100vh;
+}

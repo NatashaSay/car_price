@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css', v=1)}}">
+  </head>
+  <body>
+    <section id="price">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p class="subtext">Result</p>
+            <p class="main-text price">{{mark}} $</p>
+
+          </div>
+
+          <div class="col-md-6 text-center">
+              <p class="subtext data">Your data</p>
+              <p>Engine capacity:    {{data.engine_capacity}}</p>
+              <p>Type:    {{data.type}}</p>
+              <p>Year of registration:    {{data.registration_year}}</p>
+              <p>Gearbox:    {{data.gearbox}}</p>
+              <p>Power:    {{data.power}}</p>
+              <p>Model:    {{data.model}}</p>
+
+              <p>Mileage:    {{data.mileage}}</p>
+              <p>Fuel:    {{data.fuel}}</p>
+              <p>Brand:    {{data.brand}}</p>
+              <p>Damage:    {{data.damage}}</p>
+              <p>Insurance price:    {{data.insurance_price}}</p>
+          </div>
+
+          <div class="col-md-12 text-center">
+              <button type="button" class="btn btn-default nav-button sub-button" name="button"><a href="/" class="sub-a">Return home</a></button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Price prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css', v=1)}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+<section id="top">
+
+</section>
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+
+        <div class="main-text">
+          <p>Your сar cost prediction</p>
+
+          <p class="subtext">Enter the parameters of your car in the appropriate fields and get its value for further sale.</p>
+        </div>
+            <button type="button" class="btn btn-default nav-button sub-button" name="button"><a href="/predict" class="sub-a">Predict</a></button>
+      </div>
+
+      <div class="col-md-7">
+        <img alt="" class="img-responsive main-image" src="{{ url_for( 'static', filename='main.png', v=1)}}">
+    </div>
+  </div>
+</section>
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>

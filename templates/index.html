@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css', v=1)}}">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="subtext">Car price prediction</p>
+        </div>
+        <div class="col-md-6">
+
+
+          <form class="" action="#" method="post">
+
+            <div class="col-md-6">
+              <p>Engine capacity</p>
+              <p><input type="text" name="engine" value="" required></p>
+
+              <p>Type</p>
+              <p><input type="text" name="type" value="" required></p>
+
+              <p>Year of registration</p>
+              <p><input type="text" name="year" value="" required></p>
+
+              <p>Gearbox</p>
+              <p><input type="text" name="box" value="" required></p>
+
+              <p>Power</p>
+              <p><input type="text" name="power" value="" required></p>
+
+              <p>Model</p>
+              <p><input type="text" name="model" value="" required></p>
+
+            </div>
+
+            <div class="col-md-6">
+              <p>Milleage</p>
+              <p><input type="text" name="milleage" value="" required></p>
+
+              <p>Fuel</p>
+              <p><input type="text" name="fuel" value="" required></p>
+
+              <p>Brand</p>
+              <p><input type="text" name="brand" value=""></p>
+
+              <p>Damage</p>
+              <p><input type="text" name="damage" value="" required></p>
+
+              <p>Insurance price</p>
+              <p><input type="text" name="insurance" value="" required></p>
+
+
+              <p><input class="btn btn-warning predict" type="submit" name="" value="Predict"></p>
+            </div>
+          </form>
+
+        </div>
+        <div class="col-md-6">
+          <img alt="" class="img-responsive main-image" src="{{ url_for( 'static', filename='car.png', v=1)}}">
+      </div>
+
+      </div>
+    </div>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>
